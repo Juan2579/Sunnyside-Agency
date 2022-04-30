@@ -1,0 +1,99 @@
+.navbar_container .navigation_container{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar_container .navigation_container li a{
+    text-decoration: none;
+    color: var(--White);
+    font-size: 1.1rem;
+}
+
+.navbar_container .navigation_container li a:active{
+    background-color: #6bc9f8;
+    color: var(--White);
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.navbar_container .navigation_container .contact{
+    color: var(--Very-dark-desaturated-blue);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    background-color: var(--White);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.navbar_container .navbar_hamburguer{
+    display: none;   
+}
+
+.header_container .header_title h1{
+    margin-bottom: 80px;
+    
+}
+
+.header_container .header_title img{
+    margin-bottom: 60px;
+    width: 25px;
+    height: 70px;
+}
+
+.main_container .main-transform_container, .main_container .main-stand-out_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(300px, 350px);
+    height: auto;
+
+}
+
+.main-transform_container .transform_information{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 60%;
+    text-align: left;
+    margin: 70px auto;
+    
+}
+
+.main-stand-out_container .stand-out_information{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 60%;
+    text-align: left;
+    margin: 65px auto;
+    
+}
+
+.main-transform_container picture{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.transform_information h2, .stand-out_information h2{
+    font-size: 2.5rem;
+}
+
+.transform_information p, .stand-out_information p{
+    font-size: 1.0rem;
+}
+
+.transform_information a, .stand-out_information a{
+    font-size: 1.1rem;
+}
+
+.main-value_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(300px, 350px);
+    height: auto;
+}
+
+.graphic-design_container .graphic-design_image, .photography_container .photography_image{
+    height: 350px;
+}

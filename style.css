@@ -23,3 +23,186 @@ html{
     font-family: 'Barlow', sans-serif;
     /* font-family: 'Fraunces', serif;  */
 }
+
+.header_container{
+    width: 100%;
+    height: 70vh;
+}
+.header_container .header_image{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+}
+
+.navbar_container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.navbar_container .navbar_logo{
+    width: 100px;
+    height: 20px;
+    margin-left: 20px
+}
+
+.navbar_container .navigation_container{
+    display: none;
+}
+
+.navbar_container .navbar_hamburguer{
+    margin-right: 20px;
+}
+
+.header_container .header_title{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+
+}
+
+.header_container .header_title h1{
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 4rem;
+    color: var(--White)
+}
+
+.header_container .header_title img{
+    width: 30px;
+    height: 100px;
+}
+
+.main_container{
+    width: 100%;
+    height: auto;
+}
+
+.main_container .main-transform_container{
+    width: 100%;
+    background-color: var(--White);
+
+}
+
+.main-transform_container picture{
+    width: 100%;
+    height: 100%;
+}
+.main-stand-out_container picture{
+    width: 100%;
+    height: 100%;
+}
+.main-transform_container .transform_image{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.main-stand-out_container .stand-out_image{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.main-transform_container .transform_information, .main-stand-out_container .stand-out_information{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.transform_information h2, .stand-out_information h2{
+    font-family:'Fraunces', serif;
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: var(--Very-dark-desaturated-blue)
+}
+
+.transform_information p, .stand-out_information p{
+    margin: 20px 0;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: var(--Very-dark-grayish-blue);
+}
+
+.transform_information a, .stand-out_information a{
+    margin: 20px 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+
+.main-value_container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.graphic-design_container picture, .photography_container picture{
+    width: 100%;
+    height: 100%;
+}
+
+.graphic-design_container, .photography_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.graphic-design_container .graphic-design_image, .photography_container .photography_image{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+
+.graphic-design_container .graphic-design_information{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphic-design_information h2{
+    color: var(--Dark-desaturated-cyan);
+    font-family: 'Fraunces', serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.graphic-design_information p{
+    color: var(--Dark-desaturated-cyan);
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
