@@ -107,3 +107,13 @@
 .graphic-design_container .graphic-design_information, .photography_container .photography_information{
     padding-bottom: 20px;
 }
+
+
+.graphic-design_information h2, .photography_information h2{
+    font-size: 2.5rem;
+}
+
+.graphic-design_information p, .photography_information p{
+    width: 55%;
+    font-size: 1.3rem;
+}
