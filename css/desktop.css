@@ -94,6 +94,16 @@
     height: auto;
 }
 
+.graphic-design_container, .photography_container{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .graphic-design_container .graphic-design_image, .photography_container .photography_image{
     height: 350px;
+}
+
+.graphic-design_container .graphic-design_information, .photography_container .photography_information{
+    padding-bottom: 20px;
 }
