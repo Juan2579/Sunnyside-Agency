@@ -117,3 +117,8 @@
     width: 55%;
     font-size: 1.3rem;
 }
+
+.section_clients{
+    flex-direction: row;
+}
+
