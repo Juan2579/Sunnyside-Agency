@@ -222,14 +222,31 @@ html{
 }
 
 .transform_information a, .stand-out_information a{
+    width: max-content;
     margin: 20px 0;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 900;
     font-family: 'Fraunces', serif;
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--Very-dark-desaturated-blue);
 }
 
+.transform_information a{
+    border-bottom: 5px solid rgb(247, 247, 159);
+}
+
+.transform_information a:hover{
+    border-bottom: 5px solid var(--Yellow);
+}
+
+.stand-out_information a:hover{
+    border-bottom: 5px solid var(--Soft-red);
+}
+
+.stand-out_information a{
+    border-bottom: 5px solid rgb(252, 193, 193);
+}
 
 .main-value_container{
     width: 100%;
