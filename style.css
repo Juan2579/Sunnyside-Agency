@@ -223,6 +223,7 @@ html{
 
 .transform_information a, .stand-out_information a{
     width: max-content;
+    height: max-content;
     margin: 20px 0;
     font-size: 1.6rem;
     font-weight: 900;
